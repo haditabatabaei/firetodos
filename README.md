@@ -1,34 +1,49 @@
-# firebase
+# Firetodos!
+Firetodos is simple starter pack to work with firebase (authentication + firestore) alongside vue ecosystem (vuejs2 + vuex) for beginners.
+  - Authentication using Firebase's authentication service
+  - Create, Read and Delete on todos with Firebase's Firestore.
 
-## Project setup
-```
-npm install
-```
+### Tech
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+* [VueJS] - The Progressive JavaScript Framework!
+* [Vuex] - state management pattern + library for Vue.js applications
+* [Firebase] - Firebase helps you build and run successful apps
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Installation
+You need node.js installed on your system.
+after clonning this repository:
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
+```sh
+$ cd firetodos
+$ npm install
+$ npm run serve
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Used libraries
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Following libraries have been used in the project:
+
+| Name | Reference |
+| ------ | ------ |
+| axios | https://github.com/axios/axios |
+| vue-toasted | https://github.com/shakee93/vue-toasted |
+| vuejs-loading-plugin | https://github.com/noxludio/vuejs-loading-plugin |
+| vuelidate | https://vuelidate.js.org/ |
+
+
+### Development
+
+Want to contribute? Great!
+
+### Todos
+
+ - Write Tests
+ - Todo Edit
+ - Profile Edit
+ - Todo Assignment to users
+ - Add Dark Mode
+
+License
+----
+
+MIT
