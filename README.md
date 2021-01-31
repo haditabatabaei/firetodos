@@ -16,8 +16,26 @@ after clonning this repository:
 ```sh
 $ cd firetodos
 $ npm install
+```
+### Environment variables and firebase setup
+You have to setup your firebase and config it.
+create file named ``.env.local`` in the root folder (where ``package.json`` is and NOT src folder)
+set the following environment variables based on what firebase requires.
+| Key name | Desc |
+| ------ | ------ |
+| ``VUE_APP_FB_API_KEY`` | Your Firebase API key |
+| ``VUE_APP_FB_PROJECT_ID`` | Your Firebase project id |
+| ``VUE_APP_FB_APP_ID`` | Your Firebase app id |
+| ``VUE_APP_FB_AUTH_DOMAIN`` | Your Firebase authentication domain (if required) |
+| ``VUE_APP_FB_STORAGE_BUCKET`` | Your Firebase storage bucket (if required) |
+| ``VUE_APP_FB_MESSAGING_SENDER_ID`` | Your Firebase messaging sender id (if required) |
+
+### Running
+After setting environment variables, serve the application in development mode:
+```
 $ npm run serve
 ```
+
 
 ### Used libraries
 
